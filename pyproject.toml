@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "mom-ai"
+version = "0.1.0"
+description = ""
+authors = ["Paras Sharma <paras@kidaura.in>"]
+readme = "README.md"
+packages = [{include = "mom_ai"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openai = "^0.27.2"
+pydub = "^0.25.1"
+langchain = "^0.0.109"
+tiktoken = "^0.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
